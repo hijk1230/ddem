@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html [属性スタイル] {
+  -webkit-locale: "ja";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: 0.1em;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  background-color: #fff;
+  color: #13191b;
+  line-height: 1.7;
+  font-size: 13px;}
+
+  body {
+    margin: 0;
+    display: block;
+  }
+
+
+
+  /* … */
+
+.l-header .m-siteLogo {
+  float: left;
+  margin-top: 50px;
+  margin-left: 7%;}
+
+  .m-siteLogo {
+    margin: 0;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+a {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+  transition-property: all;
+}
+
+.m-siteLogo a{
+    display: block;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    background: url(image/siteLogo-pc@2x.png) no-repeat;
+    width: 266px;
+    height: 72px;
+    background-size: 266px 72px;
+}
+
+.js-navigation {
+  transition-duration: 600ms;
+  transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.l-header:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+/* main-visual */
+
+
+.m-mainVisual {
+  background-color: #b7c0c7;
+  width: 100%;
+  height: 295px;
+  max-height: 900px;
+  position: relative;
+  overflow: hidden;
+}
+
+element.style {
+  height: 1324px;
+}
+
+.slides:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
